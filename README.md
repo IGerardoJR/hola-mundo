@@ -6,32 +6,42 @@ En las primeras 3 pantallas puedes dejar los valores por defecto y darle a "Hech
 
 En el almacenamiento asegurate de que este seleccionada la unidad vas a usar y sobretodo ten en cuenta que usara todo el almacenamiento.
 
--- particiones
+# particiones
 Punto clave, por defecto Ubuntu te creara un sistema de particionado. Pero ese sistema por lo regular suele dejar mucho espacio sin usar, por lo que vete a la parte de abajo en donde dice "reset" o "Reestablecer/Reiniciar"
-
+![particiones](https://github.com/IGerardoJR/hola-mundo/blob/main/dale%20a%20reset.png)
 y en donde dice free space dale enter y te debera aparecer un mini submenu. Le das en donde dice add new gpt partition y te debera aparecer algo como lo siguiente.
 
---- boot configuracion
+### boot
 Le asignas un 1 de almacenamiento y en donde dice punto de montaje buscas uno donde diga /boot
+![particiones-boot](https://github.com/IGerardoJR/hola-mundo/blob/main/boot.png)
 
---- Resto almacenamiento
+### Resto del almacenamiento
 Vuelves a realizar el mismo procedimiento (darle enter a free space) > add gpt partition y el espacio restante se lo das al punto de montaje que diga "/"
+![particiones-boot](https://github.com/IGerardoJR/hola-mundo/blob/main/restante%20raiz.png)
 
--- username y nombre servidor
+
+### username y nombre servidor
 Asignale los valores que quieras, solo anota bien los datos.
+![particiones-boot](https://github.com/IGerardoJR/hola-mundo/blob/main/username%20y%20servidor.png)
 
--- ssh
+
+### ssh
 Importante, con la barra de espacio dale en donde dice Instalar Servidor OpenSSH
 una vez la hayas marcado dale a "Hecho"
+![particiones-boot](https://github.com/IGerardoJR/hola-mundo/blob/main/instalar_ssh.png)
 
--- featured server snaps
+
+### featured server snaps
 Te puedes brincar esa parte.
+![particiones-boot](https://github.com/IGerardoJR/hola-mundo/blob/main/por-el-momento-no-instalar-nada.png)
 
--- Proceso de instalacion
+
+### Proceso de instalacion
 Despues de todas las pantallas debera empezar el proceso de instalacion y una vez culmine se habilitara en la parte inferior la opcion "Reiniciar ahora"
+![particiones-boot](https://github.com/IGerardoJR/hola-mundo/blob/main/instalacion_completada.png)
+
 
 ## Comandos inciales
-
 ### Obtener las actualizaciones mas recientes del SO
 
 ```sh
